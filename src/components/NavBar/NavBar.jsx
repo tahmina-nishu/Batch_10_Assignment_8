@@ -6,9 +6,10 @@ import love from '../../assets/love.png'
 const NavBar = () => {
 
     const links = <>
-   <li><NavLink to="/">Home</NavLink></li>
-    <li><a>Statistics</a></li>
-    <li><a>Dashboard</a></li>
+        <li><NavLink to="/">Home</NavLink></li>
+        <li><NavLink to="/Statistics">Statistics</NavLink></li>
+        <li><NavLink to="/dashboard">Dashboard</NavLink></li>
+        <li><NavLink to="/contact">Contact</NavLink></li>   
     </>
     return (
         <div className="navbar bg-base-100">

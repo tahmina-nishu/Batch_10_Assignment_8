@@ -12,7 +12,7 @@ const Gadgets = () => {
     },[])
     
     return (
-        <div className="py-20">
+        <div className="py-20 space-y-14">
             <h1 className="text-3xl font-bold">Explore Cutting-Edge Gadgets</h1>
             <div className="flex gap-6">
                 {/* menu  */}

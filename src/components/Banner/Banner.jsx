@@ -3,7 +3,7 @@ const Banner = () => {
     return (
       <div className='flex flex-col items-center'>
         <div className='border-2 p-2 rounded-3xl'>
-          <div className='bg-[#9538E2] rounded-3xl pt-10 pb-52 px-40'>
+          <div className='bg-[#9538E2] rounded-3xl pt-40 pb-52 px-40'>
             <h1 className="text-4xl font-bold text-white">Upgrade Your Tech Accessorize with Gadget Heaven Accessories</h1>
             <p className="py-6 text-white">
             Explore the latest gadgets that will take your experience to the next level. From smart devices to the coolest accessories, we have it all!
