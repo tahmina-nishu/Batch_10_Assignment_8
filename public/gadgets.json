@@ -94,13 +94,7 @@
         "category": "gadgets",
         "price": 199.99,
         "description": "Premium wireless noise-cancelling headphones with long battery life and deep bass sound.",
-        "specification": [
-          "Battery life: 30 hours",
-          "Bluetooth 5.0",
-          "Noise cancellation: Active",
-          "Weight: 250g",
-          "Color: Black"
-        ],
+        "Specification": ["Battery life: 30 hours", "Bluetooth 5.0", "Noise cancellation: Active", "Weight: 250g", "Color: Black"],
         "availability": true,
         "rating": 4.7
       },
@@ -111,12 +105,7 @@
         "category": "gadgets",
         "price": 49.99,
         "description": "Track your daily activity, heart rate, and sleep with this lightweight fitness tracker.",
-        "specification": [
-          "Battery life: 7 days",
-          "Water resistance: 50m",
-          "Connectivity: Bluetooth",
-          "Color: Black, Blue, Pink"
-        ],
+        "Specification": ["Battery life: 7 days", "Water resistance: 50m", "Connectivity: Bluetooth", "Color: Black, Blue, Pink"],
         "availability": true,
         "rating": 4.3
       }

@@ -32,7 +32,7 @@ const Details = () => {
                 => or don't add
         */
 
-                
+                alert('Added');
     }
 
     return (
@@ -61,12 +61,17 @@ const Details = () => {
                     {/* Description  */}
                     <p className="text-[#09080F99]">{description}</p>
 
-                    {/* Specifications div                 */}
+                    {/* Specifications div*/}
                     <div>
                         <h4 className="text-xl font-bold">Specifications</h4>
+                        <ol type="number">
                         {
-                            Specification.map(specification => <Specifications></Specifications>)
+                        Specification.map(spec => 
+                            (
+                                <li className="text-gray-400 pl-4 text-sm">{spec}</li>
+                            ))
                         }
+                        </ol>
                     </div>
 
                     {/* Rating div  */}

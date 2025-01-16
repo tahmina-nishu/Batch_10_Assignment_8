@@ -2,6 +2,7 @@
 const Specifications = ({specification}) => {
 
     
+    
     return (
         <div>
             <p></p>
